@@ -44,7 +44,7 @@ AppAsset::register($this);
             ['label' => 'banner rules', 'url' => ['/bannerrules/index']],
 
             Yii::$app->user->isGuest ? (
-                ['label' => 'Login', 'url' => ['/site/login']]
+            ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
                 '<li>'
                 . Html::beginForm(['/site/logout'], 'post')

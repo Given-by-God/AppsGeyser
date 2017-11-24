@@ -34,7 +34,7 @@ class Build extends Rules
                                 on r.id_banner = b.id';
 
         echo "<pre>";
-    print_r($rules = \Yii::$app->db->createCommand($sql)->queryAll());
+    /*print_r*/($rules = \Yii::$app->db->createCommand($sql)->queryAll());
         echo "</pre>";
 
         $count = 0;

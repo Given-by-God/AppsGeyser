@@ -8,15 +8,14 @@ use yii\helpers\Html;
 ?>
 
 
-<?php
-
-
-echo 'good';
-?>
-
-
 <div class="row">
     <div class="col-lg-6">
+        <pre>
+            Так как localhost - то задаем значения сами
+            Например :  '162.243.9.153' //United States
+                        '43.213.19.135' //Japan
+                        '62.143.9.153' //Germany
+        </pre>
 <!--        --><?//= Yii::$app->session->getFlash('error'); ?>
         <?= $form = Html::beginForm(['site/index'], 'post',['id' => 'contact-form']) ?>
 
